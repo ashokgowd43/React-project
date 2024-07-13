@@ -1,0 +1,261 @@
+body
+{
+  background-color: aqua;
+  
+}
+.navbar
+{
+  background-color: black;
+  padding-bottom: 10%;
+}
+.navbar .navbar-brand
+{
+  color: azure;
+}
+.navbar-nav .nav-link
+{
+  color: white;
+  transition: 0.2s linear;
+}
+
+.navbar-nav .nav-item .nav-link:hover
+{
+  color: rgb(217, 209, 198);
+  cursor: pointer;
+}
+#loction:hover
+{
+  border: 1px solid white;
+}
+
+
+.navbar-nav .nav-link:active
+{
+  color: white;
+}
+.navbar-nav
+{
+   margin-left: 100px;
+}
+.nav-item
+{
+  color: white;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.d-flex
+{
+  margin-left: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+  .collapse
+  {
+    margin-left: -100px;
+  }
+  .d-flex
+  {
+  margin-left: 20px;
+  }
+}
+
+ 
+
+
+/* cards */
+.container a
+{
+  text-decoration: none;
+}
+.col-lg-4 .card
+{
+  /* border: 2px solid rgba(60, 56, 56, 0.809); */
+  box-shadow: 2px 2px 5px gray;
+}
+
+.card-body
+{
+  height: 180px;
+  
+}
+
+
+
+
+/* main card */
+.maincard .col-lg-4 Link
+{
+  text-decoration: none;
+}
+
+.maincard .offers .row .col-sm-5 
+{
+  box-shadow: 2px 2px 7px rgba(175, 171, 171, 0.832);
+  border: 1px solid rgb(168, 163, 163);
+   
+}
+
+.maincard  .row .col-lg-2 
+{
+  padding: 20px;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 7px rgba(175, 171, 171, 0.832);
+}
+.maincard  .row .col-lg-2  .stock
+{
+  padding-left: 25px;
+}
+
+.maincard  .row .col-lg-2 .add 
+{
+  background-color: orange;
+  width: 100%;
+  border-radius: 30px;
+}
+.maincard  .row .col-lg-2 .add .addd
+{
+  text-decoration: none;
+  color: #000;
+}
+.maincard  .row .col-lg-2 .buy 
+{
+  background-color: orangered;
+  width: 100%;
+  border-radius: 30px;
+  
+}
+.maincard  .row .col-lg-2 .buy .buyy
+{
+  text-decoration: none;
+  color: black;
+}
+.maincard .card-a #free
+{
+   text-decoration: none;
+}
+
+.maincard  #free:hover
+{
+  text-decoration: underline;
+}
+
+.maincard .link
+{
+  text-decoration: none;
+}
+.maincard .link:hover
+{
+  text-decoration: underline;
+}
+
+
+/* Buy now */
+
+.now .container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.now h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.now form {
+  display: flex;
+  flex-direction: column;
+}
+
+.now .label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.now input, textarea, select, button {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.now button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.now button:hover {
+  background-color: #218838;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer
+{
+  margin-top: 50px;
+  background-color: rgb(7, 64, 86);
+  color: #fff;
+}
+.footer .back
+{
+  background-color: rgb(12, 115, 152);
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.footer .container .row 
+{
+  padding-top: 50px;
+  margin-left: -50px;
+}
+.footer .row .col-md-3 a
+{
+  color: #c5c2c2;
+}
+.footer .row .col-md-3 a:hover
+{
+  text-decoration: underline;
+}
+
+.footer .container-fluid .row a
+{
+  padding-top: 30px;
+  color: #c5c2c2;
+  text-decoration: none;
+}
+.footer .container-fluid .row a:hover
+{
+  text-decoration: underline;
+}
+.footer .container-fluid .row  .col-3
+{
+  background-color: rgb(16, 29, 35);
+}
+.footer .container-fluid 
+{
+  background-color: rgb(16, 29, 35);
+}
